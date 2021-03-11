@@ -1,0 +1,43 @@
+/*============================================== */
+/*==============MOBILE VERSION================== */
+/*============================================== */
+
+@media (max-width: 1300px) {
+  /*Toggle Menu =============================== */
+  .material-icons.md-48 {
+    font-size: 48px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+  .active {
+    display: initial;
+    cursor: pointer;
+  }
+
+  /*HEADER =============================== */
+  header {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  /*MAIN =============================== */
+  main {
+    flex-direction: column;
+    width: 98%;
+    margin-top: 0;
+  }
+
+  .main-left,
+  .main-right {
+    width: 100%;
+  }
+
+  /*CaRD =============================== */
+  .content {
+    margin: auto;
+    justify-content: center;
+    margin-top: -5rem;
+  }
+}
